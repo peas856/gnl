@@ -6,11 +6,11 @@
 /*   By: trhee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/10 15:43:52 by trhee             #+#    #+#             */
-/*   Updated: 2020/10/17 17:02:30 by trhee            ###   ########.fr       */
+/*   Updated: 2020/10/17 17:12:37 by trhee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 int					is_newline(char *buf)
 {

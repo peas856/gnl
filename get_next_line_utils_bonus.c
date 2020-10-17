@@ -6,11 +6,11 @@
 /*   By: trhee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/10 15:44:07 by trhee             #+#    #+#             */
-/*   Updated: 2020/10/17 16:19:49 by trhee            ###   ########.fr       */
+/*   Updated: 2020/10/17 17:12:18 by trhee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t				ft_strlen(const char *s)
 {

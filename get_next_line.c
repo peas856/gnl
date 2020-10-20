@@ -6,7 +6,7 @@
 /*   By: trhee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/10 15:43:52 by trhee             #+#    #+#             */
-/*   Updated: 2020/10/17 17:02:30 by trhee            ###   ########.fr       */
+/*   Updated: 2020/10/20 13:05:28 by trhee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,14 +56,14 @@ int					return_line(char **s, char **line, int len, int i)
 
 int					get_next_line(int fd, char **line)
 {
-	char			buf[BUFF_SIZE + 1];
+	char			buf[BUFFER_SIZE + 1];
 	int				len;
 	static char		*s[OPEN_MAX];
 	char			*tmp;
 
-	if (fd < 0 || !line || BUFF_SIZE <= 0)
+	if (fd < 0 || !line || BUFFER_SIZE <= 0)
 		return (-1);
-	while ((len = read(fd, buf, BUFF_SIZE)) > 0)
+	while ((len = read(fd, buf, BUFFER_SIZE)) > 0)
 	{
 		buf[len] = '\0';
 		if (!s[fd])

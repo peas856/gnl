@@ -6,14 +6,16 @@
 /*   By: trhee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/10 15:44:19 by trhee             #+#    #+#             */
-/*   Updated: 2020/10/17 17:13:07 by trhee            ###   ########.fr       */
+/*   Updated: 2020/10/20 13:11:12 by trhee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
-# define BUFF_SIZE 1
+# ifndef BUFFER_SIZE
+#  define BUFF_SIZE 500
+# endif
 
 # include <unistd.h>
 # include <stdlib.h>
